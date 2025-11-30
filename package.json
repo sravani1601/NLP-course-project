@@ -1,0 +1,24 @@
+{
+  "name": "nlp-scheduler",
+  "version": "1.0.0",
+  "description": "NLP-powered calendar scheduling with conflict detection",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node tests/test.js"
+  },
+  "keywords": ["nlp", "calendar", "scheduling", "conflict-detection"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "natural": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
+
